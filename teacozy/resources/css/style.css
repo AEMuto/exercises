@@ -1,0 +1,151 @@
+html {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+header {
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background-color: black;
+    align-items: center;
+}
+
+
+
+header img {
+    height: 50px;
+    padding-left: 10px;
+}
+
+nav {
+    text-align: right;
+    flex-grow: 1;
+}
+
+nav a {
+    display: inline-block;
+    padding: 20px 10px;
+    color: seashell;
+}
+
+
+h2,
+h3,
+h4,
+h5 {
+    font-weight: 700;
+    padding: 0.5rem;
+}
+
+h2 {
+    font-size: 1.75rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1rem;
+}
+
+h5 {
+    font-size: 0.75rem;
+}
+
+span {
+    letter-spacing: 0.05rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding-top: 10px;
+    display: block;
+}
+
+#main {
+    width: 100%;
+    min-width: 1200px;
+}
+
+#mission {
+    background-image: url("../img/img-mission-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 31.82rem;
+    padding-top: 75px;
+    align-items: center;
+    width: auto;
+    margin: 0;
+}
+
+.flex-container .content {
+    background-color: rgba(0, 0, 0, 0.527);
+    flex-basis: 100%;
+    padding: 0.5rem;
+}
+
+
+#store {
+    padding-top: 1.5rem;
+    margin-top: 3rem;
+}
+
+.tea-box {
+    overflow: hidden;
+    flex-basis: 300px;
+    padding: 15px;
+}
+
+.tea-box img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+#locations {
+    height: 22.73rem;
+    background-image: url("../img/img-locations-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    padding-top: 1.5rem;
+    margin-top: 3rem;
+}
+
+.location {
+    background-color: rgba(0, 0, 0, 0.582);
+    flex: 1 2 13.64rem;
+    margin: 0.68rem 1.8rem;
+    max-width: 300px;
+}
+
+.location h3,
+.location p {
+    padding: 1rem;
+}
+
+#contact {
+    padding-top: 1.5rem;
+    margin-top: 3rem;
+}
+
+footer {
+    padding-top: 1.5rem;
+    margin-top: 3rem;
+    text-align: left;
+    padding-left: 1rem;
+}
